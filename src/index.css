@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Coolvetica";
+  src:
+    url("/assets/coolvetica.woff2") format("woff2"),
+    url("/assets/coolvetica.woff") format("woff"),
+    url("/assets/coolvetica.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #8b1259;
+  box-shadow: 5px 5px 55px #371749 inset;
+  background:
+    linear-gradient(to bottom, transparent 0 60%, #999 60%, #333 100%),
+    repeating-linear-gradient(212deg,
+      rgb(45, 7, 88) 5% 10%,
+      rgb(88, 43, 146) 15% 20%,
+      rgb(45, 7, 88) 25% 30%
+    );
+  width: 100vw;
+  height: 100vh;
+}
